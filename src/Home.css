@@ -1,0 +1,29 @@
+.component {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 100px;
+}
+
+.twitter-bg {
+	z-index: -1;
+	opacity: 0.5;
+	height: 500px;
+	left: 600px;
+	top: 300px;
+	position: absolute;
+}
+
+.companies {
+	background-color: #F8A27B;
+}
+
+.circle {
+    border-radius:50% 50% 50% 50%;
+    width:100px;
+    height:100px;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+}

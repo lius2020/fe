@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'tiempos';
+  src: local('tiempos'), url('./fonts/tiempos-text-test-regular.woff') format('woff');
+}
+
+html {
+  font-family: 'tiempos', sans-serif;
+  font-size: 16px;
+  color: #141823;
+}

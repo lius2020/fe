@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'text';
+  src: local('text'), url('./fonts/tiempos-text-test-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: local('bold'), url('./fonts/tiempos-fine-test-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'subhead';
+  src: local('subhead'), url('./fonts/tiempos-headline-test-regular.woff') format('woff');
+}
+
+.headline {
+	font-family: 'bold';
+	font-size: 100px;
+}
+
+.subhead {
+	font-family: 'subhead';
+	font-size: 60px;
+}
+
+.text {
+	font-family: 'text';
+	font-size: 20px;
+}
